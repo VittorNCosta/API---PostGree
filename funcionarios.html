@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciar Funcionários</title>
+    <link rel="stylesheet" href="funcionarios.css"><!--link do arquivo css-->
+</head>
+<body>
+    <h1>Adicionar ou Atualizar Funcionário</h1>
+
+    <form id="update-funcionario-form">
+        <label for="funcionarioid">ID (somente para atualizar):</label>
+        <input type="number" id="funcionarioid" name="funcionarioid"><br><br>
+
+        <label for="primeironomefuncionario">Primeiro Nome:</label>
+        <input type="text" id="primeironomefuncionario" name="primeironomefuncionario" required><br><br>
+
+        <label for="sobrenomefuncionario">Sobrenome:</label>
+        <input type="text" id="sobrenomefuncionario" name="sobrenomefuncionario" required><br><br>
+
+        <label for="emailfuncionario">Email:</label>
+        <input type="email" id="emailfuncionario" name="emailfuncionario" required><br><br>
+
+        <label for="telefonefuncionario">Telefone:</label>
+        <input type="text" id="telefonefuncionario" name="telefonefuncionario" required><br><br>
+
+        <label for="cargofuncionario">Cargo:</label>
+        <input type="text" id="cargofuncionario" name="cargofuncionario" required><br><br>
+
+        <label for="datadecontratacaofuncionario">Data de Contratação:</label>
+        <input type="date" id="datadecontratacaofuncionario" name="datadecontratacaofuncionario" required><br><br>
+
+        <label for="franquiaid">Franquia ID:</label>
+        <input type="number" id="franquiaid" name="franquiaid" required><br><br>
+
+        <button type="submit">Enviar</button>
+    </form>
+
+    <div id="mensagem"></div>
+    <h2>Funcionários</h2>
+    <ul id="listaFuncionarios"></ul>
+
+    <script src="funcionarios.js"></script><!--adicionar funcionalidade ao html para vincular com o  arquivo js-->
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
