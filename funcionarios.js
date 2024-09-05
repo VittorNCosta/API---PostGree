@@ -13,7 +13,7 @@ document.getElementById('update-funcionario-form').addEventListener('submit', fu
     const datadecontratacaofuncionario = document.getElementById('datadecontratacaofuncionario').value;
     const franquiaid = document.getElementById('franquiaid').value;
 
-    // Cria um objeto com os dados do funcionário aaa
+    // Cria um objeto com os dados do funcionário
     const funcionario = {
         primeironomefuncionario,
         sobrenomefuncionario,
