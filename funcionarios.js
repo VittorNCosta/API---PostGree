@@ -13,7 +13,7 @@ document.getElementById('update-funcionario-form').addEventListener('submit', fu
     const datadecontratacaofuncionario = document.getElementById('datadecontratacaofuncionario').value;
     const franquiaid = document.getElementById('franquiaid').value;
 
-    // Cria um objeto com os dados do funcionário
+    // Cria um objeto com os dados do funcionário gf
     const funcionario = {
         primeironomefuncionario,
         sobrenomefuncionario,
@@ -24,7 +24,7 @@ document.getElementById('update-funcionario-form').addEventListener('submit', fu
         franquiaid
     };
 
-    // Define a URL e o método da requisição com base na presença do ID
+    // Define a URL e o método da requisição com base na presença do ID gf
     const url = funcionarioid ? `http://localhost:3000/api/funcionarios/${funcionarioid}` : 'http://localhost:3000/api/funcionarios';
     const method = funcionarioid ? 'PUT' : 'POST';
 
