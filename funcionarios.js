@@ -28,7 +28,7 @@ document.getElementById('update-funcionario-form').addEventListener('submit', fu
     const url = funcionarioid ? `http://localhost:3000/api/funcionarios/${funcionarioid}` : 'http://localhost:3000/api/funcionarios';
     const method = funcionarioid ? 'PUT' : 'POST';
 
-    // Faz a requisição fetch para adicionar ou atualizar o funcionário 1
+    // Faz a requisição fetch para adicionar ou atualizar o funcionário
     fetch(url, {
         method: method,
         headers: {
