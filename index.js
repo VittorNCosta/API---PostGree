@@ -15,7 +15,7 @@ const pool = new Pool({
     user: 'postgres', // Nome de usuário do banco de dados
     host: 'localhost', // Host do banco de dados
     database: 'mercado', // Nome do banco de dados
-    password: 'vnc2003vt,', // Senha do banco de dados
+    password: 'vnc2003vt,', // Senha do banco de dadoshfhgd
     port: 5432, // Porta do banco de dados
 });
 
